@@ -9,43 +9,40 @@
     justify-content: center;
     align-items: center;
 }
-.loginheading{
+.login-heading{
     font-size: 2.2rem;
     margin: 0;
     color: var(--primary-color);
 }
-.signupsubheading{
-    color:var(--tertiary-color)
-}
-.loginoption{
+.login-option{
     padding: 0.2rem;
     padding-left: 1rem;
     margin: 0.4rem;
     width: 20rem;
     height: 2rem;
 }
-.buttonsection{
+.button-section{
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.submitbutton{
+.submit-button{
     width: 18rem;
     height: 2.5rem;
 }
-.togglelogin{
+.toggle-login{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
 }
-.togglelogin p{
+.toggle-login p{
     margin: 0.5rem;
     columns: var(--primary-color);
 }
-.togglelogin button{
+.toggle-login button{
     background-color:transparent;
     color:var(--primary-color);
     border: none;

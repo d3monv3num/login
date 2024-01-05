@@ -9,53 +9,53 @@
     justify-content: center;
     align-items: center;
 }
-.signupheading{
+.signup-heading{
     font-size: 2.2rem;
     margin: 0;
     color: var(--primary-color);
 }
-.signupsubheading{
+.signup-subheading{
     color:var(--tertiary-color)
 }
-.signupoption{
+.signup-option{
     padding: 0.2rem;
     padding-left: 1rem;
     margin: 0.4rem;
     width: 20rem;
     height: 2rem;
 }
-.buttonsection{
+.button-section{
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.submitbutton{
+.submit-button{
     width: 18rem;
     height: 2.5rem;
 }
-.togglelogin{
+.toggle-login{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
 }
-.togglelogin p{
+.toggle-login p{
     margin: 0.5rem;
     columns: var(--primary-color);
 }
-.togglelogin button{
+.toggle-login button{
     background-color:transparent;
     color:var(--primary-color);
     border: none;
     font-weight: 600;
 }
-.tandc{
+.t-and-c{
     display: flex;
     color:var(--tertiary-color);
 }
-.tandc input{
+.t-and-c input{
     margin-bottom: 0.7rem;
     margin-right: 0.4rem;
 }
