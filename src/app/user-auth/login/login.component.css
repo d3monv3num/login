@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #001b6c;
+    --secondary-color:white;
+    --tertiary-color: rgba(0, 0, 0, 0.652);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginheading{
+    font-size: 2.2rem;
+    margin: 0;
+    color: var(--primary-color);
+}
+.signupsubheading{
+    color:var(--tertiary-color)
+}
+.loginoption{
+    padding: 0.2rem;
+    padding-left: 1rem;
+    margin: 0.4rem;
+    width: 20rem;
+    height: 2rem;
+}
+.buttonsection{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.submitbutton{
+    width: 21rem;
+    height: 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+}
+.togglelogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.togglelogin p{
+    margin: 1rem;
+    columns: var(--primary-color);
+}
+.togglelogin button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+}

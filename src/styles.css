@@ -8,48 +8,6 @@ body{
     background-size: cover;
     background-position: center;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem;
-}
-.logoleft{
-    width: 10rem;
-}
-.navright{
-    display: flex;
-}
-.logoright{
-    width: 10rem;
-}
-.signup , .login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.signupheading , .loginheading{
-    font-size: 2.2rem;
-    margin: 0;
-    color: var(--primary-color);
-}
-.signupsubheading{
-    color:var(--tertiary-color)
-}
-.signupoption , .loginoption{
-    padding: 0.2rem;
-    padding-left: 1rem;
-    margin: 0.4rem;
-    width: 20rem;
-    height: 2rem;
-}
-.buttonsection{
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .submitbutton{
     width: 21rem;
     height: 2rem;
@@ -58,33 +16,9 @@ body{
     border-radius: 0.2rem;
     font-size: 1.2rem;
 }
-.togglelogin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-}
-.togglelogin p{
-    margin: 1rem;
-    columns: var(--primary-color);
-}
 .togglelogin button{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 0.4rem;
     border-radius: 0.2rem;
-}
-.tandc{
-    display: flex;
-    color:var(--tertiary-color);
-}
-.tandc input{
-    margin-bottom: 0.7rem;
-    margin-right: 0.4rem;
-}
-a , .tandclink{
-    text-decoration: none;
-    margin-left: 0.2rem;
-    font-weight: 600;
-    color: var(--primary-color);
 }

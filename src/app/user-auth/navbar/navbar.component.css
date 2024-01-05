@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #001b6c;
+    --secondary-color:white;
+    --tertiary-color: rgba(0, 0, 0, 0.652);
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.logoleft{
+    width: 10rem;
+}
+.navright{
+    display: flex;
+}
+.logoright{
+    width: 10rem;
+}
