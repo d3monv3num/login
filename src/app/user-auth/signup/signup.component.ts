@@ -21,7 +21,7 @@ export class SignupComponent{
 
   onSubmit = () => {
     if (this.signupForm.valid) {
-      // Implement your signup logic here
+      // Signup Form implementation and requests 
       console.log('Form submitted:', this.signupForm.value);
     }
   };
