@@ -17,3 +17,18 @@
 .logoright{
     width: 10rem;
 }
+@media screen and (max-width:680px){
+    .navbar{
+        margin-bottom: 1rem;
+    }
+    .navright p{
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+    .logoleft{
+        width: 5rem;
+    }
+    .logoright{
+        width: 10rem;
+    }
+}
