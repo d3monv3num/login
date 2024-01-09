@@ -1,17 +1,38 @@
-<div class="signup">
+<div class="signup" [formGroup]="signupForm">
     <p class="signup-heading">Register your business</p>
     <p class="signup-subheading">With Hippo</p>
-    <input type="text" class="signup-option" placeholder="Buisness Name">
-    <input type="text" class="signup-option" placeholder="User Name">
-    <input type="email" class="signup-option" placeholder="Email Id">
-    <input type="number" class="signup-option" placeholder="Mobile Number">
-    <input type="password" class="signup-option" placeholder="Password">
-    <div class="t-and-c"><input type="checkbox" name="" id="" class="checkbox"><p>I agree to the </p><p class="t-and-c-link"><a href="">Terms and Conditions</a></p></div>
-    <div class="buttonsection">
-        <button type="button" class="btn btn-primary submit-button" mdbRipple>Sign up</button>
-        <div class="toggle-login">
-            <p>have an account?</p>
-            <button routerLink="/login">Login</button>
-        </div>
+    
+    <!-- Business Name -->
+    <input type="text" class="signup-option" placeholder="Business Name" formControlName="businessName">
+  
+    <!-- User Name -->
+    <input type="text" class="signup-option" placeholder="User Name" formControlName="userName">
+  
+    <!-- Email -->
+    <input type="email" class="signup-option" placeholder="Email Id" formControlName="email">
+  
+    <!-- Mobile Number -->
+    <input type="number" class="signup-option" placeholder="Mobile Number" formControlName="mobileNumber">
+  
+    <!-- Password -->
+    <input type="password" class="signup-option" placeholder="Password" formControlName="password">
+  
+    <!-- Terms and Conditions Checkbox -->
+    <div class="t-and-c">
+      <input type="checkbox" formControlName="agreeTerms" id="agreeTerms" class="checkbox">
+      <p>I agree to the </p>
+      <p class="t-and-c-link"><a href="">Terms and Conditions</a></p>
     </div>
-</div>
+  
+    <!-- Submit Button -->
+    <div class="buttonsection">
+      <button type="button" class="btn btn-primary submit-button" mdbRipple (click)="onSubmit()" [disabled]="signupForm.invalid">Sign up</button>
+  
+      <!-- Toggle to Login -->
+      <div class="toggle-login">
+        <p>have an account?</p>
+        <button routerLink="/login">Login</button>
+      </div>
+    </div>
+  </div>
+  
