@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { FormBuilder, FormControl, Validators,ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { LowerCasePipe } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [SignupComponent,ReactiveFormsModule,RouterLink],
+  imports: [SignupComponent,ReactiveFormsModule,RouterLink,LowerCasePipe],
   templateUrl: './signup.component.html',
   styleUrl: './signup.component.css'
 })

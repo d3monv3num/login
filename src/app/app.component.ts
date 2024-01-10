@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, LowerCasePipe } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { LoginComponent } from './user-auth/login/login.component';
 import { SignupComponent } from './user-auth/signup/signup.component';
@@ -8,7 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,LoginComponent,SignupComponent,NavbarComponent,NgbModule],
+  imports: [CommonModule, RouterOutlet,LoginComponent,SignupComponent,NavbarComponent,NgbModule,LowerCasePipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
