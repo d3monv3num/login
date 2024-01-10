@@ -13,7 +13,7 @@ export class SignupComponent{
   fb = new FormBuilder();
   signupForm = this.fb.group({
     businessName: new FormControl('', Validators.required),
-    userName: new FormControl('', Validators.required),
+    userName: new FormControl('', [Validators.required, Validators.pattern('[a-zA-Z0-9]+$')]),//custom validators for username only containing numbers and letters and one currency symbol
     email: new FormControl('', [Validators.required, Validators.email]),
     mobileNumber: new FormControl('', Validators.required),
     password: new FormControl('', [Validators.required, Validators.minLength(6)]),
